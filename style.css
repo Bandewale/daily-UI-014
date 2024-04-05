@@ -1,0 +1,61 @@
+html{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+     background: linear-gradient(185deg, #71ae40, #328c75, #c5b21c, #e37d1a, #e37d1a);
+    background-size: 1000% 1000%;
+
+    -webkit-animation: AnimationName 36s ease infinite;
+    -moz-animation: AnimationName 36s ease infinite;
+    animation: AnimationName 36s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:57% 0%}
+    50%{background-position:44% 100%}
+    100%{background-position:57% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:57% 0%}
+    50%{background-position:44% 100%}
+    100%{background-position:57% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:57% 0%}
+    50%{background-position:44% 100%}
+    100%{background-position:57% 0%}
+}
+main{
+    height:50vh;
+    width:50%;
+    
+}
+div{
+    position:relative;
+    left:55%;
+    border-radius: 30px;
+    border:10px solid black;
+    border:none;
+    margin-top: 20%;
+    text-align: center;
+    padding:5%;
+    font-size:xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    font-size: 100%;
+}
+button{
+    height:12vh;
+    font-size: 100%;
+    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    padding:5%;
+    padding-bottom:5%;
+    margin:5%;
+    text-align: center;
+    background-color:#97E7E1;
+    border:none;
+
+}
